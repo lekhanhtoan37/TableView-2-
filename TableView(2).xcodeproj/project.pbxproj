@@ -10,10 +10,11 @@
 		5404C6A721489F6C0028E4CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404C6A621489F6C0028E4CB /* AppDelegate.swift */; };
 		5404C6A921489F6C0028E4CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404C6A821489F6C0028E4CB /* ViewController.swift */; };
 		5404C6AC21489F6C0028E4CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5404C6AA21489F6C0028E4CB /* Main.storyboard */; };
-		5404C6AE21489F6E0028E4CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5404C6AD21489F6E0028E4CB /* Assets.xcassets */; };
 		5404C6B121489F6E0028E4CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5404C6AF21489F6E0028E4CB /* LaunchScreen.storyboard */; };
 		5404C6BC21489F6E0028E4CB /* TableView_2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404C6BB21489F6E0028E4CB /* TableView_2_Tests.swift */; };
 		5404C6C721489F6E0028E4CB /* TableView_2_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404C6C621489F6E0028E4CB /* TableView_2_UITests.swift */; };
+		54415F642148BE8E00F46B78 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54415F632148BE8E00F46B78 /* Media.xcassets */; };
+		54CCBA1F2148A47E0064B13B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CCBA1E2148A47E0064B13B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		5404C6A621489F6C0028E4CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5404C6A821489F6C0028E4CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5404C6AB21489F6C0028E4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5404C6AD21489F6E0028E4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5404C6B021489F6E0028E4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5404C6B221489F6E0028E4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5404C6B721489F6E0028E4CB /* TableView(2)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView(2)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +47,8 @@
 		5404C6C221489F6E0028E4CB /* TableView(2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView(2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5404C6C621489F6E0028E4CB /* TableView_2_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_2_UITests.swift; sourceTree = "<group>"; };
 		5404C6C821489F6E0028E4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54415F632148BE8E00F46B78 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		54CCBA1E2148A47E0064B13B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,9 @@
 			children = (
 				5404C6A621489F6C0028E4CB /* AppDelegate.swift */,
 				5404C6A821489F6C0028E4CB /* ViewController.swift */,
+				54CCBA1E2148A47E0064B13B /* TableViewController.swift */,
 				5404C6AA21489F6C0028E4CB /* Main.storyboard */,
-				5404C6AD21489F6E0028E4CB /* Assets.xcassets */,
+				54415F632148BE8E00F46B78 /* Media.xcassets */,
 				5404C6AF21489F6E0028E4CB /* LaunchScreen.storyboard */,
 				5404C6B221489F6E0028E4CB /* Info.plist */,
 			);
@@ -230,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5404C6B121489F6E0028E4CB /* LaunchScreen.storyboard in Resources */,
-				5404C6AE21489F6E0028E4CB /* Assets.xcassets in Resources */,
+				54415F642148BE8E00F46B78 /* Media.xcassets in Resources */,
 				5404C6AC21489F6C0028E4CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +261,7 @@
 			files = (
 				5404C6A921489F6C0028E4CB /* ViewController.swift in Sources */,
 				5404C6A721489F6C0028E4CB /* AppDelegate.swift in Sources */,
+				54CCBA1F2148A47E0064B13B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TableView(2)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TableView(2)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
